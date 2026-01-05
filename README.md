@@ -35,6 +35,38 @@ An AI-powered thumbnail generator built using the MERN stack that allows users t
 - MongoDB (local or MongoDB Atlas)
 - OpenAI API Key
 
+### Quick Start (Recommended)
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Dimuthu02/ai-thumbnail-generator.git
+cd ai-thumbnail-generator
+```
+
+2. Install all dependencies:
+```bash
+npm run install:all
+```
+
+3. Configure backend environment:
+```bash
+cd backend
+cp .env.example .env
+# Edit .env with your configuration
+cd ..
+```
+
+4. Start development servers (in separate terminals):
+```bash
+# Terminal 1 - Backend
+npm run dev:backend
+
+# Terminal 2 - Frontend
+npm run dev:frontend
+```
+
+### Manual Setup
+
 ### Backend Setup
 
 1. Navigate to the backend directory:
