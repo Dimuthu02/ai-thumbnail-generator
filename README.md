@@ -10,6 +10,7 @@ An AI-powered thumbnail generator built using the MERN stack that allows users t
 - 💾 **Cloud Storage**: Save and manage all your generated thumbnails
 - ⚡ **Fast & Easy**: Generate professional thumbnails in seconds
 - 🗑️ **Management**: View, download, and delete your thumbnails
+- 🛡️ **Security**: Rate limiting and secure authentication
 
 ## Tech Stack
 
@@ -25,6 +26,7 @@ An AI-powered thumbnail generator built using the MERN stack that allows users t
 - JWT for authentication
 - OpenAI API (DALL-E 3) for image generation
 - bcryptjs for password hashing
+- express-rate-limit for API protection
 
 ## Installation
 
